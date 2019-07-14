@@ -5,11 +5,12 @@ ReLeaSE solution solved with: H2O4GPU, Anaconda, Docker, CUDA 10, RDKit, TensorF
 Drug Discovery using H2O4GPU based off of the following paper: Deep ReLeaSE (Reinforcement Learning for de-novo Drug Design) by: 
 Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning for de-novo Drug Design*. Science Advances, 2018, Vol. 4, no. 7, eaap7885. DOI: [10.1126/sciadv.aap7885](http://dx.doi.org/10.1126/sciadv.aap7885). Please note that this implementation of Deep Reinforcement Learning for de-novo Drug Design aka ReLeaSE method only works on Linux.
 
-<img align="left" src="https://avatars0.githubusercontent.com/u/1402695?s=200&v=4" width="100" height="auto" />
+<img align="left" src="https://avatars0.githubusercontent.com/u/1402695?s=200&v=4" width="75" height="auto" />
 
 [H2O4GPU](https://github.com/h2oai/h2o4gpu) is a collection of GPU solvers by H2Oai with APIs in Python and R. The Python API builds upon the easy-to-use scikit-learn API and its well-tested CPU-based algorithms. It can be used as a drop-in replacement for scikit-learn.
 
 <div><br /></div>
+
 ### Chemical and Molecule Analysis for Drug Discovery
 
 * [OpenChem](https://mariewelt.github.io/OpenChem/html/index.html): OpenChem is a deep learning toolkit for Computational Chemistry with PyTorch backend
