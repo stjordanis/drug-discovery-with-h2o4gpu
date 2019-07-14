@@ -22,7 +22,7 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
     - Cheminformatics nodes for KNIME (distributed from the KNIME community site: https://www.knime.com/rdkit)
     - TUTORIALS: ` https://github.com/rdkit/rdkit-tutorials `
 
-* [Mordred](https://github.com/mordred-descriptor/mordred): Compute modal decompositions and reduced-order models, easily, efficiently, and in parallel
+* [Mordred](https://github.com/mordred-descriptor/mordred): Molecular descriptor calculator - Compute modal decompositions and reduced-order models, easily, efficiently, and in parallel
 
 * [TensorFlow for GPU v1.13.1](https://www.tensorflow.org/install/gpu): Machine Learning
 
