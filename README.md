@@ -8,10 +8,10 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
 
 ### Chemical and Molecule Analysis for Drug Discovery
 
-<img align="left" src="https://avatars0.githubusercontent.com/u/1402695?s=200&v=4" width="25%" height="auto" />
-<img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" width="25%" height="auto" />
-<img align="left" src="https://avatars2.githubusercontent.com/u/1158637?s=200&v=4" width="25%" height="auto" />
-<img align="left" src="https://avatars0.githubusercontent.com/u/15658638?s=200&v=4" width="25%" height="auto" />
+<img align="left" src="https://avatars0.githubusercontent.com/u/1402695?s=200&v=4" width="22%" height="auto" />
+<img align="left" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" width="22%" height="auto" />
+<img align="left" src="https://avatars2.githubusercontent.com/u/1158637?s=200&v=4" width="22%" height="auto" />
+<img align="left" src="https://avatars0.githubusercontent.com/u/15658638?s=200&v=4" width="22%" height="auto" />
 
 ---------------------------------------
 
