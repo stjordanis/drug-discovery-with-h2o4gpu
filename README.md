@@ -8,8 +8,7 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
 <img align="left" src="https://avatars0.githubusercontent.com/u/1402695?s=200&v=4" width="75" height="auto" />
 
 [H2O4GPU](https://github.com/h2oai/h2o4gpu) is a collection of GPU solvers by H2Oai with APIs in Python and R. The Python API builds upon the easy-to-use scikit-learn API and its well-tested CPU-based algorithms. It can be used as a drop-in replacement for scikit-learn.
-
-<div><br /></div>
+<div></div>
 
 ### Chemical and Molecule Analysis for Drug Discovery
 
