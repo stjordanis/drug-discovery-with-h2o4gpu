@@ -1,5 +1,5 @@
 ### Drug Discovery using H2O4GPU 
-ReLeaSE solution solved with: H2O4GPU, CUDA 10, Anaconda, RDKit, TensorFlow-GPU, OpenChem and more!
+ReLeaSE solution solved with: H2O4GPU, Docker, CUDA 10, Anaconda, RDKit, TensorFlow-GPU, OpenChem and more!
 
 # Reinforcement Learning for Drug Discovery using H2O4GPU
 Drug Discovery using H2O4GPU based off of the following paper: Deep ReLeaSE (Reinforcement Learning for de-novo Drug Design) by: 
