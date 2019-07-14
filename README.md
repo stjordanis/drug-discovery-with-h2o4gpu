@@ -52,11 +52,6 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
 * [cuDNN7.4.1.5 for deeep learning in CNN's](https://developer.nvidia.com/cudnn): GPU-accelerated library of primitives for deep neural networks
 
 
-### How else do you plan to serve a model to production?
-
-* [TensorFlow-serving-api](https://www.tensorflow.org/tfx/guide/serving)
-
-
 ### Misc 
 
 * [tqdm](https://github.com/tqdm/tqdm): Progess bars
