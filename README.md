@@ -62,9 +62,9 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
 * Only Tesla Pascal and Turing GPU Architecture are supported 
 * Test with synthetic data that compares GPU to CPU benchmark, and Tensorboard example:
    
-   1. [CPU/GPU Benchmark](https://github.com/joehoeller/ /blob/master/apps/gpu_benchmarks/benchmark.py)
+   1. [CPU/GPU Benchmark](https://github.com/joehoeller/drug-discovery-with-h2o4gpu/blob/master/apps/gpu_benchmarks/benchmark.py)
    
-   2. [Tensorboard to understand & debug neural networks](https://github.com/joehoeller/ /blob/master/apps/gpu_benchmarks/tensorboard.py)
+   2. [Tensorboard to understand & debug neural networks](https://github.com/joehoeller/drug-discovery-with-h2o4gpu/blob/master/apps/gpu_benchmarks/tensorboard.py)
 
 
 -------------------------------------------------------------
