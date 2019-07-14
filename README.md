@@ -8,10 +8,10 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
 
 ### Chemical and Molecule Analysis for Drug Discovery
 
-![github-small](https://avatars0.githubusercontent.com/u/1402695?s=200&v=4 | width=100)
-![github-small](https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png  | width=100)
-![github-small](https://avatars2.githubusercontent.com/u/1158637?s=200&v=4 | width=100)
-![github-small](https://avatars0.githubusercontent.com/u/15658638?s=200&v=4 | width=100)
+<img src="https://avatars0.githubusercontent.com/u/1402695?s=200&v=4" width="100" height="auto" />
+<img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" width="100" height="auto" />
+<img src="https://avatars2.githubusercontent.com/u/1158637?s=200&v=4" width="100" height="auto" />
+<img src="https://avatars0.githubusercontent.com/u/15658638?s=200&v=4" width="100" height="auto" />
 
 
 * [H2O4GPU](https://github.com/h2oai/h2o4gpu): H2O4GPU is a collection of GPU solvers by H2Oai with APIs in Python and R. The Python API builds upon the easy-to-use scikit-learn API and its well-tested CPU-based algorithms. It can be used as a drop-in replacement for scikit-learn.
