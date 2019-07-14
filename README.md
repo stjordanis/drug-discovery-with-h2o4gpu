@@ -35,7 +35,7 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
 
 * [Dask Distributed](https://dask.org/): Distributed ingestion of data
 
-* [Feature Tools](https://docs.featuretools.com/): Automted feature engineering
+* [Feature Tools](https://docs.featuretools.com/): Automated feature engineering
 
 
 ### CUDA for GPU/TPU Enablement
