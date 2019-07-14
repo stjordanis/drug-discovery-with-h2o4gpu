@@ -92,6 +92,9 @@ RUN conda create -n h2o4gpuenv -c h2oai -c conda-forge h2o4gpu-cuda92
 RUN conda init bash
 RUN /bin/bash -c conda activate h2o4gpuenv
 
+# Install molecular descriptor calculator
+RUN conda install -c rdkit -c mordred-descriptor mordred
+
 # Install OpenChem
 RUN git clone https://github.com/Mariewelt/OpenChem.git
 RUN conda install --yes --file /OpenChem/requirements.txt
@@ -108,7 +111,6 @@ RUN pip install tensorflow-gpu
 #RUN chmod a+rwx /etc/bash.bashrc
 
 RUN ${PIP} --no-cache-dir install jupyter matplotlib pyinstrument
-# RUN ${PIP} install jupyter matplotlib pyinstrument
 
 # Misc deps
 RUN ${PIP} --no-cache-dir install \
@@ -121,7 +123,6 @@ RUN ${PIP} --no-cache-dir install \
     pycuda \
     "dask[complete]" \
     featuretools \
-    modred \
     tqdm \
     xgboost \
     seaborn \
@@ -130,8 +131,8 @@ RUN ${PIP} --no-cache-dir install \
     ipython \
     ipykernel 
 
-WORKDIR /
 
+WORKDIR /
 
 RUN mkdir -p /tf/tensorflow-tutorials && chmod -R a+rwx /tf/
 RUN mkdir /.local && chmod a+rwx /.local
@@ -143,6 +144,9 @@ RUN wget https://raw.githubusercontent.com/tensorflow/docs/master/site/en/tutori
 RUN wget https://raw.githubusercontent.com/tensorflow/docs/master/site/en/tutorials/keras/save_and_restore_models.ipynb
 
 RUN apt-get autoremove -y && apt-get remove -y wget
+
+RUN chmod 777 -R /root/anaconda3/bin/python3
+
 WORKDIR /tf
 EXPOSE 8888 6006
 
