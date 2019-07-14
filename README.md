@@ -67,7 +67,7 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
 ### Good to know
 * Hot Reloading: code updates will automatically update in container from /apps folder.
 * TensorBoard is on localhost:6006 and GPU enabled Jupyter is on localhost:8888.
-* Python 3.6 (Stable & Secure)
+* Python 3.7
 * Only Tesla Pascal and Turing GPU Architecture are supported 
 * Test with synthetic data that compares GPU to CPU benchmark, and Tensorboard example:
    
