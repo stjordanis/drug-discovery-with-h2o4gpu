@@ -1,19 +1,16 @@
-# Drug Discovery using H2O4GPU 
-ReLeaSE solution solved with: H2O4GPU, Anaconda, Docker, CUDA 10, RDKit, TensorFlow-GPU, OpenChem and more: This ios a large container designed for portable, reproducible, enterprise-level drug discovery. So, please be aware that this is a very large container and it takes several minutes to build.
+### Drug Discovery using H2O4GPU 
+ReLeaSE solution solved with: H2O4GPU, CUDA 10, Anaconda, RDKit, TensorFlow-GPU, OpenChem and more!
 
-## Reinforcement Learning for Drug Discovery using H2O4GPU
+# Reinforcement Learning for Drug Discovery using H2O4GPU
 Drug Discovery using H2O4GPU based off of the following paper: Deep ReLeaSE (Reinforcement Learning for de-novo Drug Design) by: 
 Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning for de-novo Drug Design*. Science Advances, 2018, Vol. 4, no. 7, eaap7885. DOI: [10.1126/sciadv.aap7885](http://dx.doi.org/10.1126/sciadv.aap7885). Please note that this implementation of Deep Reinforcement Learning for de-novo Drug Design aka ReLeaSE method only works on Linux.
 
-------------------------------------------
 
-<img align="left" src="https://avatars0.githubusercontent.com/u/1402695?s=200&v=4" width="75" height="auto" />
-
-[H2O4GPU](https://github.com/h2oai/h2o4gpu) is a collection of GPU solvers by H2Oai with APIs in Python and R. The Python API builds upon the easy-to-use scikit-learn API and its well-tested CPU-based algorithms. It can be used as a drop-in replacement for scikit-learn.
-<div></div>
-
-------------------------------------------
 ### Chemical and Molecule Analysis for Drug Discovery
+
+![github-small](https://avatars0.githubusercontent.com/u/1402695?s=200&v=4)
+
+* [H2O4GPU](https://github.com/h2oai/h2o4gpu): H2O4GPU is a collection of GPU solvers by H2Oai with APIs in Python and R. The Python API builds upon the easy-to-use scikit-learn API and its well-tested CPU-based algorithms. It can be used as a drop-in replacement for scikit-learn.
 
 * [OpenChem](https://mariewelt.github.io/OpenChem/html/index.html): OpenChem is a deep learning toolkit for Computational Chemistry with PyTorch backend
 
@@ -24,7 +21,8 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
     - Cheminformatics nodes for KNIME (distributed from the KNIME community site: https://www.knime.com/rdkit)
     - TUTORIALS: ` https://github.com/rdkit/rdkit-tutorials `
 
-* [Mordred](https://github.com/mordred-descriptor/mordred): Molecular descriptor calculator - Compute modal decompositions and reduced-order models, easily, efficiently, and in parallel
+* [Mordred](https://github.com/mordred-descriptor/mordred)
+    - Compute modal decompositions and reduced-order models, easily, efficiently, and in parallel
 
 * [TensorFlow for GPU v1.13.1](https://www.tensorflow.org/install/gpu): Machine Learning
 
@@ -37,7 +35,7 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
 
 * [Dask Distributed](https://dask.org/): Distributed ingestion of data
 
-* [Feature Tools](https://docs.featuretools.com/): Automated feature engineering
+* [Feature Tools](https://docs.featuretools.com/): Automted feature engineering
 
 
 ### CUDA for GPU/TPU Enablement
@@ -50,23 +48,31 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
 
 * [cuDNN7.4.1.5 for deeep learning in CNN's](https://developer.nvidia.com/cudnn): GPU-accelerated library of primitives for deep neural networks
 
+
+### How else do you plan to serve a model to production?
+
+* [TensorFlow-serving-api](https://www.tensorflow.org/tfx/guide/serving)
+
+
 ### Misc 
 
 * [tqdm](https://github.com/tqdm/tqdm): Progess bars
  
+
 ### Operating System inside the container
 * Ubuntu 18.04 so you can 'nix your way through the cmd line!
+
 
 ### Good to know
 * Hot Reloading: code updates will automatically update in container from /apps folder.
 * TensorBoard is on localhost:6006 and GPU enabled Jupyter is on localhost:8888.
-* Anaconda distribution of Python (Accelerated Python)
+* Python 3.6 (Stable & Secure)
 * Only Tesla Pascal and Turing GPU Architecture are supported 
 * Test with synthetic data that compares GPU to CPU benchmark, and Tensorboard example:
    
-   1. [CPU/GPU Benchmark](https://github.com/joehoeller/drug-discovery-with-h2o4gpu/blob/master/apps/gpu_benchmarks/benchmark.py)
+   1. [CPU/GPU Benchmark](https://github.com/joehoeller/ /blob/master/apps/gpu_benchmarks/benchmark.py)
    
-   2. [Tensorboard to understand & debug neural networks](https://github.com/joehoeller/drug-discovery-with-h2o4gpu/blob/master/apps/gpu_benchmarks/tensorboard.py)
+   2. [Tensorboard to understand & debug neural networks](https://github.com/joehoeller/ /blob/master/apps/gpu_benchmarks/tensorboard.py)
 
 
 -------------------------------------------------------------

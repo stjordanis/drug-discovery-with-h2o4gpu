@@ -54,20 +54,11 @@ RUN file="$(ls -1 /usr/local/)" && echo $file
 # Install Anaconda
 
 
-RUN wget https://repo.continuum.io/archive/Anaconda3-2019.03-Linux-x86_64.sh 
-RUN bash Anaconda3-2019.03-Linux-x86_64.sh -b
-RUN rm Anaconda3-2019.03-Linux-x86_64.sh
+RUN wget --quiet https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && \
+/bin/bash Miniconda3-latest-Linux-x86_64.sh -f -b -p /opt/conda && \
+rm Miniconda3-latest-Linux-x86_64.sh
+ENV PATH /opt/conda/bin:$PATH
 
-# Set path to conda
-ENV PATH /root/anaconda3/bin:$PATH
-RUN conda update conda-build
-RUN conda update conda
-
-# Init RDKit
-RUN conda create -c rdkit -n gpuenvs rdkit
-
-# Add the new created environment to the path
-ENV PATH /opt/conda/envs/gpuenvs/bin:$PATH
 
 # For CUDA profiling, TensorFlow requires CUPTI.
 ENV LD_LIBRARY_PATH /usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH
@@ -128,14 +119,16 @@ RUN ${PIP} --no-cache-dir install \
     seaborn \
     pytest \
     pytest-cov \
-    ipython \
-    ipykernel 
+    ipython
 
+
+RUN conda install -c anaconda ipykernel 
 
 WORKDIR /
 
 RUN mkdir -p /tf/tensorflow-tutorials && chmod -R a+rwx /tf/
 RUN mkdir /.local && chmod a+rwx /.local
+RUN chmod -R 777 /.local
 RUN apt-get install -y --no-install-recommends wget
 WORKDIR /tf/tensorflow-tutorials
 RUN wget https://raw.githubusercontent.com/tensorflow/docs/master/site/en/tutorials/keras/basic_classification.ipynb
@@ -145,13 +138,10 @@ RUN wget https://raw.githubusercontent.com/tensorflow/docs/master/site/en/tutori
 
 RUN apt-get autoremove -y && apt-get remove -y wget
 
-RUN chmod 777 -R /root/anaconda3/bin/python3
-
 WORKDIR /tf
 EXPOSE 8888 6006
 
 RUN useradd -ms /bin/bash container_user
-
 RUN ${PYTHON} -m ipykernel.kernelspec
 
 CMD ["bash", "-c", "source /etc/bash.bashrc && jupyter notebook --notebook-dir=/tf --ip 0.0.0.0 --no-browser --allow-root --NotebookApp.custom_display_url='http://localhost:8888'"]
