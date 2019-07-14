@@ -11,6 +11,8 @@ Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning 
 
 [H2O4GPU](https://github.com/h2oai/h2o4gpu) is a collection of GPU solvers by H2Oai with APIs in Python and R. The Python API builds upon the easy-to-use scikit-learn API and its well-tested CPU-based algorithms. It can be used as a drop-in replacement for scikit-learn.
 
+------------------------------------------
+
 ### Chemical and Molecule Analysis for Drug Discovery
 
 * [OpenChem](https://mariewelt.github.io/OpenChem/html/index.html): OpenChem is a deep learning toolkit for Computational Chemistry with PyTorch backend
