@@ -1,7 +1,7 @@
-### Drug Discovery using H2O4GPU 
+# Drug Discovery using H2O4GPU 
 ReLeaSE solution solved with: H2O4GPU, Anaconda, Docker, CUDA 10, RDKit, TensorFlow-GPU, OpenChem and more!
 
-# Reinforcement Learning for Drug Discovery using H2O4GPU
+## Reinforcement Learning for Drug Discovery using H2O4GPU
 Drug Discovery using H2O4GPU based off of the following paper: Deep ReLeaSE (Reinforcement Learning for de-novo Drug Design) by: 
 Mariya Popova, Olexandr Isayev, Alexander Tropsha. *Deep Reinforcement Learning for de-novo Drug Design*. Science Advances, 2018, Vol. 4, no. 7, eaap7885. DOI: [10.1126/sciadv.aap7885](http://dx.doi.org/10.1126/sciadv.aap7885). Please note that this implementation of Deep Reinforcement Learning for de-novo Drug Design aka ReLeaSE method only works on Linux.
 
